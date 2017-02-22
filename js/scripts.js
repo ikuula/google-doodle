@@ -12,4 +12,4 @@ var randNum = Math.floor(Math.random() * max);
 console.log(randNum);
 
 // Display randomized img
-$('img').attr('src', eval('img' + randNum) );
+$('#random').attr('src', eval('img' + randNum) );

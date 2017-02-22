@@ -3,6 +3,28 @@
 @import 'google-homepage';
 
 
-body {
-    background: lightblue;
+//Animation
+// First Frame
+img {
+    opacity: .5;
+    transform: scale(.25) rotate(0);
+    width: 50%;
+    transition: transform .5s;
+}
+
+// Last Frame
+img:hover {
+    opacity: 1;
+    transform: scale(1.5) rotate(180deg);
+}
+
+.line {fill:none;
+    stroke:#000000;
+    stroke-width:3;
+    stroke-miterlimit:10;
+    transition: stroke 1s;
+}
+
+.line:hover {
+    stroke: red;
 }
