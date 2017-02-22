@@ -1,5 +1,14 @@
 # Google Doodle
 
+##Direction
+*Google letters that eat eachother. 
+*"G" stretches open and "o's" slide in it's "mouth." 
+*Little "g" flips around, "l" falls over and sqashes "e."
+*"l" slides in little "g"'s mouth, Little "g" tips on it's back and slides into big "G".
+*Big "G" slides into center.
+*white box background
+
+
 ##Brainstorming Ideas
 
 *Carburetors
