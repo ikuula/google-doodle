@@ -9,7 +9,7 @@ var img1 = '../img/400.jpg';
 //random number generator
 var max = 3;
 var randNum = Math.floor(Math.random() * max);
-console.log.(randNum);
+console.log(randNum);
 
 // Display randomized img
 $('img').attr('src', eval('img' + randNum) );
