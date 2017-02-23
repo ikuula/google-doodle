@@ -1,7 +1,7 @@
 .overlay{
   position:fixed;
 	
-   background:url(../img/circlesShaddow-02.svg);
+   background:url(../img/dust2.png);
   -webkit-animation:100s scroll infinite linear;
   -moz-animation:100s scroll infinite linear;
   -o-animation:100s scroll infinite linear;
@@ -45,16 +45,14 @@
 }
 
 //overlay2
-
 .overlay2{
   position:fixed;
-	
-   background:url(../img/circlesShaddow-02.svg);
-  -webkit-animation:30s scroll infinite linear;
-  -moz-animation:30s scroll infinite linear;
-  -o-animation:30s scroll infinite linear;
-  -ms-animation:30s scroll infinite linear;
-  animation:30s scroll infinite linear;
+  background:url(../img/dust5.png);
+  -webkit-animation:150s scroll infinite linear;
+  -moz-animation:150s scroll infinite linear;
+  -o-animation:150s scroll infinite linear;
+  -ms-animation:150s scroll infinite linear;
+  animation:150s scroll infinite linear;
   top:-3em;
   left:0;
   width:100%;
