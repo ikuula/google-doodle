@@ -30,9 +30,33 @@ img:hover {
     stroke: red;
 }
 
-body {
-	background: #2a2f36;
-	//background-image: url(../img/dust3.png);
-	//background-size: 50%;
-	
+//body {
+//	background: #2a2f36;
+//	//background-image: url(../img/dust3.png);
+//	//background-size: 50%;
+//	
+//}
+
+$bg0: #2a2f36;
+$bg1: #31797d;
+$bg2: #8c7b8f;
+$bg3: navy;
+$bg4: tomato;
+
+
+
+.bg0 {
+  background: $bg0;
+}
+.bg1 {
+  background: $bg1;
+}
+.bg2 {
+  background: $bg2;
+}
+.bg3 {
+  background: $bg3;
+}
+.bg4 {
+  background: $bg4;
 }
