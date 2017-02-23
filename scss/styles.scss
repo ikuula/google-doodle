@@ -18,6 +18,18 @@ img:hover {
     opacity: 1;
     transform: scale(1.5) rotate(5deg);
 }
+.cloud,
+.cloud2{
+	position: absolute;
+	bottom: 0;
+	width: 45%;
+}
+.cloud {
+	left: 0;
+}
+.cloud2 {
+	right: 0;
+}
 
 .line {fill:none;
     stroke:#000000;
@@ -30,20 +42,14 @@ img:hover {
     stroke: red;
 }
 
-//body {
-//	background: #2a2f36;
-//	//background-image: url(../img/dust3.png);
-//	//background-size: 50%;
-//	
-//}
 
+
+//Random background colors
 $bg0: #2a2f36;
 $bg1: #31797d;
 $bg2: #8c7b8f;
 $bg3: navy;
 $bg4: tomato;
-
-
 
 .bg0 {
   background: $bg0;
