@@ -6,16 +6,17 @@
 //Animation
 // First Frame
 img {
-    opacity: .5;
-    transform: scale(.25) rotate(0);
-    width: 50%;
+	margin: 0 auto;
+    //opacity: .5;
+    transform: scale(1) rotate(0);
+    width: 100%;
     transition: transform .5s;
 }
 
 // Last Frame
 img:hover {
     opacity: 1;
-    transform: scale(1.5) rotate(180deg);
+    transform: scale(1.5) rotate(5deg);
 }
 
 .line {fill:none;
@@ -30,8 +31,8 @@ img:hover {
 }
 
 body {
-	background: goldenrod;
-	background-image: url(../img/dust3.png);
-	background-size: 50%;
+	background: #2a2f36;
+	//background-image: url(../img/dust3.png);
+	//background-size: 50%;
 	
 }

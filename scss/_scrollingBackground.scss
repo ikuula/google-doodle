@@ -2,6 +2,7 @@
   position:fixed;
 	
    background:url(../img/dust2.png);
+	//background-size: 150%;
   -webkit-animation:100s scroll infinite linear;
   -moz-animation:100s scroll infinite linear;
   -o-animation:100s scroll infinite linear;
@@ -48,6 +49,7 @@
 .overlay2{
   position:fixed;
   background:url(../img/dust5.png);
+	//background-size: 100%;
   -webkit-animation:150s scroll infinite linear;
   -moz-animation:150s scroll infinite linear;
   -o-animation:150s scroll infinite linear;
