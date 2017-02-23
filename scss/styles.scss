@@ -1,7 +1,7 @@
 // Grand central station
 
 @import 'google-homepage';
-
+@import 'scrollingBackground';
 
 //Animation
 // First Frame
@@ -28,3 +28,15 @@ img:hover {
 .line:hover {
     stroke: red;
 }
+
+body {
+	background: blue;
+	background-image: url(../img/dust3.png);
+	background-size: 50%;
+	
+}
+//#container {
+//	background-image: url(../img/dust1.png);
+//	max-width: 100%;
+//	margin: 0 auto;
+//}
