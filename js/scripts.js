@@ -24,3 +24,10 @@ console.log(randNum);
 
 //change class on body element
 $('body').addClass('bg' + randNum);
+
+//var max = 6;
+//var randNum = Math.floor(Math.random() * max);
+//console.log(randNum);
+//
+////change class on body element
+//$('img').addClass('bg' + randNum);

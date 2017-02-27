@@ -1,6 +1,6 @@
 // Grand central station
-
 @import 'google-homepage';
+@import 'background';
 //@import 'scrollingBackground';
 
 //Animation
@@ -11,12 +11,6 @@ img {
     transform: scale(1) rotate(0);
     width: 100%;
     transition: transform .5s;
-}
-
-// Last Frame
-img:hover {
-    opacity: 1;
-    transform: scale(1.5) rotate(5deg);
 }
 .cloud,
 .cloud2{
@@ -30,6 +24,26 @@ img:hover {
 .cloud2 {
 	right: -4px;
 }
+.hand2,
+.hand {
+	position: absolute;
+	bottom: -10%;
+	width: 6%;
+	transition: 1s, ease;
+}
+.hand {
+	left: 20%;
+	transform: scale(1) rotate(30);
+}
+.hand2 {
+	right: 20%;
+}
+
+// Last Frame
+img:hover {
+    opacity: 1;
+    transform: scale(1.5) rotate(5deg);
+}
 
 .line {fill:none;
     stroke:#000000;
@@ -38,44 +52,10 @@ img:hover {
     transition: stroke 1s;
 }
 
-.line:hover {
-    stroke: red;
+.hand:hover, .hand2:hover {
+    bottom: 0;
+	transition: .5s, ease;
 }
 
 
 
-//Random background colors
-$bg0: #2a2f36;
-$bg1: #31797d;
-$bg2: #96656c;
-$bg3: navy;
-$bg4: #d06b2e;
-$bg5: #1ebbe2;
-
-.bg0 {
-  background: $bg0;
-}
-.bg1 {
-  background: $bg1;
-}
-.bg2 {
-  background: $bg2;
-}
-.bg3 {
-  background: $bg3;
-}
-.bg4 {
-  background: $bg4;
-}
-.bg5 {
-  background: $bg5;
-}
-
-.overlay {
-	position:fixed;
-	top:-3em;
-	left:0;
-	width:100%;
-	height:100%;
-	background: url(../img/dust2.png)
-}
