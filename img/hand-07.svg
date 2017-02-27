@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 716 513" style="enable-background:new 0 0 716 513;" xml:space="preserve">
+	 viewBox="0 0 227.6 1401.6" style="enable-background:new 0 0 227.6 1401.6;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F23C55;}
 	.st1{fill:#FBC926;}
@@ -38,23 +38,15 @@
 	.st32{clip-path:url(#SVGID_26_);fill:#BDCCD4;}
 	.st33{clip-path:url(#SVGID_26_);}
 	.st34{fill:#BDCCD4;}
-	.st35{fill:#D7B311;}
+	.st35{fill:#2C4367;}
 	.st36{clip-path:url(#SVGID_28_);fill:#BDCCD4;}
 	.st37{clip-path:url(#SVGID_30_);fill:#BDCCD4;}
 </style>
-<g>
-	<defs>
-		<rect id="SVGID_27_" width="716" height="513"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
-	</clipPath>
-	<circle class="st2" cx="287" cy="458" r="119"/>
-	<circle class="st2" cx="109.5" cy="212.5" r="76.5"/>
-	<circle class="st2" cx="-74.5" cy="144.5" r="144.5"/>
-	<circle class="st2" cx="240.5" cy="561.5" r="144.5"/>
-	<circle class="st2" cx="20.5" cy="422.5" r="202.5"/>
-	<circle class="st2" cx="-16.5" cy="525.5" r="202.5"/>
-	<circle class="st2" cx="513.5" cy="619.5" r="202.5"/>
-</g>
+<path class="st35" d="M180.1,381.3c-3-18.2,8.6-39.9,13.9-57.2c5-16.5,21.1-38.8,18-56c-1-5.4,1.2-40.7,0-46c-3.9-17.6,0-48,0-48
+	l15.5-85.7c0,0-1.4-16.7-8.4-17.5C213,70,206.1,84.9,204,89c-2.8,5.5-20,71-20,71l-3-53l-16-66.8c0,0-11.6-17-18.9-17.3
+	c-2.9-0.1-6.6,43.2,0.9,75.1c4,17-1,39-1,39l-15-78l-12-36c0,0-2.2-20.7-10.1-22.6C83-6,102,63,102,63l12,70c0,0-42.5-122-55-122
+	c-27.2,0-12,26-12,26l8,29l10,51.8l8,42.2c0,0,6,40,5,59c-0.1,1.4-3.9,8.1-10,7c-23-4-26-36-40.7-58.9C21.5,158,7.9,157,3,159.7
+	c-7.6,4.2,1.4,21.6,2.8,28.8c1.1,6,3.5,18.7,5.4,24.6c2.7,8.3,12,22.1,15.2,30.3c3.4,8.6,19.4,25,22.6,33.6c8.6,23.1,40,31,38,80
+	c-0.6,15.5-3,50,1,66c7.1,28.3,4.2,159.6,2.3,338.2c-3.2,290.4,14.4,638.2,14.4,638.2l115.5,2.2c0,0-3.9-294.8-19.5-566.1
+	C189,630.5,180.3,458.9,182,446c0.9-6.8,5.7-40.6,4.4-47.5C185.7,394.3,180.8,385.5,180.1,381.3z"/>
 </svg>
