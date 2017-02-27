@@ -1,12 +1,7 @@
 # Google Doodle
 
 ##Direction
-*Google letters that eat eachother. 
-*"G" stretches open and "o's" slide in it's "mouth." 
-*Little "g" flips around, "l" falls over and sqashes "e."
-*"l" slides in little "g"'s mouth, Little "g" tips on it's back and slides into big "G".
-*Big "G" slides into center.
-*white box background
+*Hands slide in from different angles and drop off each of the letters of google.
 
 
 ##Brainstorming Ideas
@@ -22,3 +17,10 @@
 *"Transcend the Bullshit" typography 
 *5 Random flashing numbers/letters, google letters are landed on upon hover, sit for 10sec, then start flashing again
 
+##Another cool idea
+*Google letters that eat eachother. 
+*"G" stretches open and "o's" slide in it's "mouth." 
+*Little "g" flips around, "l" falls over and sqashes "e."
+*"l" slides in little "g"'s mouth, Little "g" tips on it's back and slides into big "G".
+*Big "G" slides into center.
+*white box background
