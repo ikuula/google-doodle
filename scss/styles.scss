@@ -22,13 +22,13 @@ img:hover {
 .cloud2{
 	position: absolute;
 	bottom: 0;
-	width: 45%;
+	width: 50%;
 }
 .cloud {
 	left: 0;
 }
 .cloud2 {
-	right: 0;
+	right: -4px;
 }
 
 .line {fill:none;
@@ -47,9 +47,10 @@ img:hover {
 //Random background colors
 $bg0: #2a2f36;
 $bg1: #31797d;
-$bg2: #8c7b8f;
+$bg2: #96656c;
 $bg3: navy;
-$bg4: tomato;
+$bg4: #d06b2e;
+$bg5: #1ebbe2;
 
 .bg0 {
   background: $bg0;
@@ -65,4 +66,16 @@ $bg4: tomato;
 }
 .bg4 {
   background: $bg4;
+}
+.bg5 {
+  background: $bg5;
+}
+
+.overlay {
+	position:fixed;
+	top:-3em;
+	left:0;
+	width:100%;
+	height:100%;
+	background: url(../img/dust2.png)
 }

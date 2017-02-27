@@ -18,7 +18,7 @@
 
 //RANDOM BG GENERATOR
 //get random number 
-var max = 5;
+var max = 6;
 var randNum = Math.floor(Math.random() * max);
 console.log(randNum);
 
