@@ -3,10 +3,12 @@
 /* Stage */
 
 #stage {
-    background: none;
-	width: 60%;
-    max-height: 500px;
-    max-width: 600px;
+    //background: #ccc;
+	//width: 60%;
+    height: 300px;
+    width: 600px;
+	position: relative;
+  	overflow: hidden;
 }
 
 #stage #star {
