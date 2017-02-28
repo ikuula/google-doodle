@@ -22,8 +22,9 @@ var max = 6;
 var randNum = Math.floor(Math.random() * max);
 console.log(randNum);
 
-//change class on body element
+//change class on #stage div
 $('#stage').addClass('bg' + randNum);
+$('button').addClass('bg' + randNum);
 
 //var max = 6;
 //var randNum = Math.floor(Math.random() * max);
