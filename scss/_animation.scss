@@ -1,0 +1,81 @@
+//Animation
+// First Frame
+//img {
+//	margin: 0 auto;
+//    //opacity: .5;
+//    transform: scale(1) rotate(0);
+//    width: 100%;
+//    transition: transform .5s;
+//}
+
+//clouds
+// First Frame
+#cloud,
+#cloud2{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	transition: all 1s ease;
+}
+#cloud {
+	left: 0;
+}
+#cloud2 {
+	right: -2px;
+}
+//clouds
+// last Frame
+//#stage:click .cloud {
+//	bottom: 0;
+//	width: 50%;
+//	
+//}
+
+.hand2,
+.hand {
+	position: absolute;
+	bottom: -10%;
+	width: 6%;
+	transition: 1s, ease;
+}
+.hand {
+	left: 20%;
+	transform: scale(1) rotate(15deg);
+}
+.hand2 {
+	right: 20%;
+	transform: scale(1) rotate(-15deg);
+}
+
+// Last Frame
+//img:hover {
+//    opacity: 1;
+//    transform: scale(1.5) rotate(5deg);
+//}
+
+
+
+
+
+.cloud {
+  animation: cloud 6s;
+}
+.cloud2 {
+  animation: cloud2 6s;
+}
+
+//keyframes
+@keyframes cloud {
+  0% {  
+  }
+  100% {
+      transform: scale(1.5) translate(0,25%);
+  }
+}
+@keyframes cloud2 {
+  0% {  
+  }
+  100% {
+      transform: scale(1.5) translate(25%,15%);
+  }
+}

@@ -32,3 +32,15 @@ $('button').addClass('bg' + randNum);
 //
 ////change class on body element
 //$('img').addClass('bg' + randNum);
+
+//$('#stage').click(function() { 
+//  $('#cloud').addClass('cloud');
+//});
+
+
+$("#stage").click(function() {
+  $('#cloud').toggleClass('cloud');
+});
+$("#stage").click(function() {
+  $('#cloud2').toggleClass('cloud2');
+});
