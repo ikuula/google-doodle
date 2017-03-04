@@ -74,7 +74,7 @@ img:hover {
 
 
 // GOOGLE First frame
-#hand,#hand2,#hand3,#g,#o,#o2,#g2,#l,#e {
+#hand,#hand2,#hand3,#hand4,#hand5,#hand6,#g,#o,#o2,#g2,#l,#e {
 	position: absolute;
 	bottom: 0;
 	width: 60px;
@@ -90,9 +90,9 @@ img:hover {
 }
 #hand {
 	//bottom: -450px;
-	bottom: -220px;
+	bottom: -145px;
 	left: 22%;
-	width: 50px;
+	width: 40px;
 }
 #o {
 	//top:47%;
@@ -102,13 +102,13 @@ img:hover {
 }
 #hand2 {
 	//bottom: -375px;
-	bottom: -145px;
+	bottom: -135px;
 	left: 32%;
 	width: 50px;
 }
 #o2 {
 	//top:45%;
-	bottom: -80px;
+	//bottom: -80px;
 	bottom: 150px;
 	left: 42%;
 }
@@ -125,6 +125,13 @@ img:hover {
 	bottom: 120px;
 	left: 52%;
 }
+#hand4 {
+	//top:40%;
+	//bottom: -110px;
+	bottom: -145px;
+	left: 54%;
+	width: 40px;
+}
 #l {
 	//top:35%;
 	width: 40px;
@@ -132,11 +139,25 @@ img:hover {
 	bottom: 150px;
 	left: 62%;
 }
+#hand5 {
+	//top:35%;
+	width: 40px;
+	//bottom: -80px;
+	bottom: -150px;
+	left: 62%;
+}
 #e {
 	//top:44%;
-	bottom: -80px;
+	//bottom: -80px;
 	bottom: 150px;
 	left:69%;
+}
+#hand6 {
+	//top:44%;
+	//bottom: -80px;
+	bottom: -115px;
+	left:70%;
+	width: 40px;
 }
 
 // GOOGLE + Hands Last frame
@@ -163,11 +184,20 @@ img:hover {
 #g2 {
   animation: google 10s 0.75s infinite;
 }
+#hand4 {
+  animation: hands 10s 0.75s infinite;
+}
 #l {
   animation: google 10s 1s infinite;
 }
+#hand5 {
+  animation: hands 10s 1s infinite;
+}
 #e {
   animation: google 10s 1.25s infinite;
+}
+#hand6 {
+  animation: hands 10s 1.25s infinite;
 }
 
 //keyframes
