@@ -1,15 +1,11 @@
 //Animation
-// First Frame
-//img {
-//    transform: scale(1) rotate(0);
-//    transition: transform .5s;
-//}
 
 //clouds
 // First Frame
 #cloud,
 #cloud2,
-#cloud3 {
+#cloud3, 
+#cloud4 {
 	position: absolute;
 	bottom: 0;
 	width: 30%;
@@ -22,10 +18,14 @@
 }
 #cloud2 {
 	right: -2px;
-	animation: cloud2 27s 0s ease-in-out infinite;
+	animation: cloud2 40s 0s ease-in-out infinite;
 }
 #cloud3 {
-	animation: cloud3 33s 0s ease-in-out infinite;
+	animation: cloud3 35s 0s ease-in-out infinite;
+}
+#cloud4 {
+	left:0;
+	animation: cloud4 25s 0s ease-in-out infinite;
 }
 
 //keyframes
@@ -56,7 +56,18 @@
 	  transform: translate(0,0); 
   }
 	50% { 
-	  transform: scale(3) translate(0,0) rotate(-45deg); 
+	  transform: scale(4) translate(100px,0) rotate(-45deg); 
+  }
+	100% {
+      transform: translate(0,0);
+  }
+}
+@keyframes cloud4 {
+  0% { 
+	  transform: translate(0,0); 
+  }
+	50% { 
+	  transform: scale(4) translate(0,0) rotate(45deg); 
   }
 	100% {
       transform: translate(0,0);
