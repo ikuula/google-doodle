@@ -8,17 +8,59 @@
 //clouds
 // First Frame
 #cloud,
-#cloud2{
+#cloud2,
+#cloud3 {
 	position: absolute;
 	bottom: 0;
-	width: 100%;
+	width: 30%;
+	opacity: .2;
 	transition: all 1s ease;
 }
 #cloud {
 	left: 0;
+	animation: cloud 30s 0s ease-in-out infinite;
 }
 #cloud2 {
 	right: -2px;
+	animation: cloud2 27s 0s ease-in-out infinite;
+}
+#cloud3 {
+	animation: cloud3 33s 0s ease-in-out infinite;
+}
+
+//keyframes
+@keyframes cloud {
+  0% { 
+	  transform: translate(0,0); 
+  }
+	50% { 
+	  transform: scale(3) translate(50px,-60px) rotate(-8deg); 
+  }
+	100% {
+      transform: translate(0,0);
+  }
+}
+@keyframes cloud2 {
+  0% { 
+	  transform: translate(0,0); 
+  }
+	50% { 
+	  transform: scale(3) translate(-50px,-60px) rotate(8deg); 
+  }
+	100% {
+      transform: translate(0,0);
+  }
+}
+@keyframes cloud3 {
+  0% { 
+	  transform: translate(0,0); 
+  }
+	50% { 
+	  transform: scale(3) translate(0,0) rotate(-45deg); 
+  }
+	100% {
+      transform: translate(0,0);
+  }
 }
 
 // DRAWSVG line
@@ -43,7 +85,7 @@
 }
 #wave2 {
 	position: absolute;
-	bottom: -100px;
+	bottom: -101px;
 	left: 0;
 	width: 140%;
 }
@@ -59,18 +101,27 @@
 	left: 0;
 	width: 180%;
 }
+#wave5 {
+	position: absolute;
+	bottom: -225px;
+	left: 0;
+	width: 200%;
+}
 //Animation
 #wave {
-  animation: waves 4s 0s infinite;
+  animation: waves 5.5s 0s ease-in-out infinite;
 }
 #wave2 {
-  animation: waves 3s 0s infinite;
+  animation: waves 4.5s 0s ease-in-out infinite;
 }
 #wave3 {
-  animation: waves 2s 0s infinite;
+  animation: waves 3.5s 0s ease-in-out infinite;
 }
 #wave4 {
-  animation: waves 1s 0s infinite;
+  animation: waves 2.5s 0s ease-in-out infinite;
+}
+#wave5 {
+  animation: waves 1.5s 0s ease-in-out infinite;
 }
 
 
@@ -80,20 +131,12 @@
 	  transform: translate(0,0); 
   }
 	50% { 
-	  transform: translate(-50px,0); 
+	  transform: translate(-80px,0); 
   }
 	100% {
       transform: translate(0,0);
   }
 }
-
-
-
-
-
-
-
-
 
 
 // GOOGLE First frame
@@ -190,8 +233,6 @@
 }
 
 // GOOGLE + Hands Last frame
-
-
 .g {
   animation: google 10s 0s infinite;
 }
