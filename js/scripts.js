@@ -16,12 +16,10 @@
 
 
 
-//RANDOM BG GENERATOR
+//RANDOM BG Color GENERATOR
 //get random number 
 var max = 6;
 var randNum = Math.floor(Math.random() * max);
-console.log(randNum);
-
 //change class on #stage div
 $('#stage').addClass('bg' + randNum);
 $('button').addClass('bg' + randNum);
@@ -38,40 +36,53 @@ $('button').addClass('bg' + randNum);
 //});
 
 
+ //DRAW SVG
+var $svg = $('svg').drawsvg({
+      duration: 6500,
+      easing: 'linear'
+    });
+
+//$svg.drawsvg('animate');
+
 $("#stage").click(function() {
-  $('#g').toggleClass('g');
+  $($svg).drawsvg('animate');
+});
+
+// CLICK TO START ANIMATIONS
+$("#stage").click(function() {
+  $('#g').addClass('g');
 });
 $("#stage").click(function() {
-  $('#hand').toggleClass('hand');
+  $('#hand').addClass('hand');
 });
 $("#stage").click(function() {
-  $('#o').toggleClass('o');
+  $('#o').addClass('o');
 });
 $("#stage").click(function() {
-  $('#hand2').toggleClass('hand2');
+  $('#hand2').addClass('hand2');
 });
 $("#stage").click(function() {
-  $('#o2').toggleClass('o2');
+  $('#o2').addClass('o2');
 });
 $("#stage").click(function() {
-  $('#hand3').toggleClass('hand3');
+  $('#hand3').addClass('hand3');
 });
 $("#stage").click(function() {
-  $('#g2').toggleClass('g2');
+  $('#g2').addClass('g2');
 });
 $("#stage").click(function() {
-  $('#hand4').toggleClass('hand4');
+  $('#hand4').addClass('hand4');
 });
 $("#stage").click(function() {
-  $('#l').toggleClass('l');
+  $('#l').addClass('l');
 });
 $("#stage").click(function() {
-  $('#hand5').toggleClass('hand5');
+  $('#hand5').addClass('hand5');
+});
+$("#stage").click(function(){
+  $('#e').addClass('e');
 });
 $("#stage").click(function() {
-  $('#e').toggleClass('e');
-});
-$("#stage").click(function() {
-  $('#hand6').toggleClass('hand6');
+  $('#hand6').addClass('hand6');
 });
 
