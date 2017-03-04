@@ -72,7 +72,6 @@ img:hover {
 //Hand First Frame
 
 
-
 // GOOGLE First frame
 #hand,#hand2,#hand3,#hand4,#hand5,#hand6,#g,#o,#o2,#g2,#l,#e {
 	position: absolute;
@@ -247,14 +246,20 @@ img:hover {
   0% { 
 	  transform: translate(0,0); 
   }
-	70% { 
+	50% { 
 	  transform: translate(0,0); 
   }
-	 75% {
+	
+	// FALLING
+	 55% {
       transform: translate(0,230px);
   }
-  92% {
+  72% {
       transform: translate(0,230px);
+  }
+	// BACK UP
+	80% {
+      transform: translate(0,0);
   }
 	100% {
       transform: translate(0,0);
@@ -262,21 +267,22 @@ img:hover {
 }
 @keyframes hands {
   0% { 
-	  transform: translate(0,-230px);
-	  //visibility: hidden;
+	  transform: translate(0,0);	 
   }
-	10% { 
-	  transform: translate(0,-230px); 
-		//visibility: visible;
-  }
-	 27% {
+	 7% {
       transform: translate(0,0);
   }
-  92% {
+  72% {
       transform: translate(0,0);
+  }
+	80% {
+      transform: translate(0,-230px);
+  }
+	85% { 
+	  transform: translate(0,-230px); 	
   }
 	100% {
-      transform: translate(0,-230px);
+      transform: translate(0,0);
   }
 }
 
