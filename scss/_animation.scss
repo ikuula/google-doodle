@@ -1,9 +1,9 @@
 //Animation
 // First Frame
-img {
-    transform: scale(1) rotate(0);
-    transition: transform .5s;
-}
+//img {
+//    transform: scale(1) rotate(0);
+//    transition: transform .5s;
+//}
 
 //clouds
 // First Frame
@@ -20,56 +20,67 @@ img {
 #cloud2 {
 	right: -2px;
 }
-//clouds
-// last Frame
-//#stage:click .cloud {
-//	bottom: 0;
-//	width: 50%;
-//	
-//}
 
-
-
-
-img:hover {
-    transform: scale(.75) rotate(5deg);
+// WAAAAAVES
+#wave {
+	position: absolute;
+	bottom: -67px;
+	left: 0;
+	width: 120%;
+}
+#wave2 {
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	width: 140%;
+}
+#wave3 {
+	position: absolute;
+	bottom: -140px;
+	left: 0;
+	width: 160%;
+}
+#wave4 {
+	position: absolute;
+	bottom: -180px;
+	left: 0;
+	width: 180%;
+}
+//Animation
+#wave {
+  animation: waves 4s 0s infinite;
+}
+#wave2 {
+  animation: waves 3s 0s infinite;
+}
+#wave3 {
+  animation: waves 2s 0s infinite;
+}
+#wave4 {
+  animation: waves 1s 0s infinite;
 }
 
-
-
-
-
-.cloud {
-  animation: cloud ease-in-out 10s infinite;
-}
-.cloud2 {
-  animation: cloud2 ease-in-out 10s .5s infinite;
-}
 
 //keyframes
-@keyframes cloud {
+@keyframes waves {
   0% { 
-	  transform: scale(1) translate(0,0);
+	  transform: translate(0,0); 
   }
-  50% {
-      transform: scale(1.5) translate(0,25%);
+	50% { 
+	  transform: translate(-50px,0); 
   }
 	100% {
-      transform: scale(1) translate(0,0);
+      transform: translate(0,0);
   }
 }
-@keyframes cloud2 {
-  0% { 
-	  transform: scale(1) translate(0,0);
-  }
-  50% {
-      transform: scale(1.5) translate(25%,25%);
-  }
-	100% {
-      transform: scale(1) translate(0,0);
-  }
-}
-//Hand First Frame
+
+
+
+
+
+
+
+
 
 
 // GOOGLE First frame
@@ -205,53 +216,17 @@ img:hover {
   animation: hands 10s 0.5s infinite;
 }
 
-////keyframes
-//@keyframes google {
-//  0% { 
-//	  transform: translate(0,0); 
-//  }
-//	70% { 
-//	  transform: translate(0,0); 
-//  }
-//	 75% {
-//      transform: translate(0,230px);
-//  }
-//  92% {
-//      transform: translate(0,230px);
-//  }
-//	100% {
-//      transform: translate(0,0);
-//  }
-//}
-//@keyframes hands {
-//  0% { 
-//	  transform: translate(0,0);
-//  }
-//	10% { 
-//	  transform: translate(0,230px); 
-//  }
-//	 75% {
-//      transform: translate(0,230px);
-//  }
-//  92% {
-//      transform: translate(0,230px);
-//  }
-//	100% {
-//      transform: translate(0,0);
-//  }
-//}
-
 //keyframes
 @keyframes google {
   0% { 
 	  transform: translate(0,0); 
   }
-	50% { 
+	40% { 
 	  transform: translate(0,0); 
   }
 	
 	// FALLING
-	 55% {
+	 45% {
       transform: translate(0,230px);
   }
   72% {
@@ -286,8 +261,3 @@ img:hover {
   }
 }
 
-//#g,#o,#o2,#g2,#l,#e {
-//}
-//#g:hover {
-//	transform: scale(.5);
-//}
