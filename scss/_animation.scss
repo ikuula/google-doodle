@@ -90,7 +90,8 @@ img:hover {
 }
 #hand {
 	//bottom: -450px;
-	bottom: -145px;
+	//bottom: -145px;
+	bottom: -375px;
 	left: 22%;
 	width: 40px;
 }
@@ -102,7 +103,8 @@ img:hover {
 }
 #hand2 {
 	//bottom: -375px;
-	bottom: -135px;
+	//bottom: -135px;
+	bottom: -365px;
 	left: 32%;
 	width: 50px;
 }
@@ -115,7 +117,8 @@ img:hover {
 #hand3 {
 	//top:45%;
 	//bottom: -80px;
-	bottom: -150px;
+	//bottom: -150px;
+	bottom: -380px;
 	left: 43.5%;
 	width: 40px;
 }
@@ -128,7 +131,8 @@ img:hover {
 #hand4 {
 	//top:40%;
 	//bottom: -110px;
-	bottom: -145px;
+	//bottom: -145px;
+	bottom: -375px;
 	left: 54%;
 	width: 40px;
 }
@@ -143,7 +147,8 @@ img:hover {
 	//top:35%;
 	width: 40px;
 	//bottom: -80px;
-	bottom: -150px;
+	//bottom: -150px;
+	bottom: -380px;
 	left: 62%;
 }
 #e {
@@ -155,7 +160,8 @@ img:hover {
 #hand6 {
 	//top:44%;
 	//bottom: -80px;
-	bottom: -115px;
+	//bottom: -115px;
+	bottom: -350px;
 	left:70%;
 	width: 40px;
 }
@@ -163,42 +169,78 @@ img:hover {
 // GOOGLE + Hands Last frame
 
 
-#g {
+.g {
   animation: google 10s 0s infinite;
 }
-#hand {
+.hand {
   animation: hands 10s 0s infinite;
 }
-#o {
-  animation: google 10s 0.25s infinite;
+.o {
+  animation: google 10s 0.1s infinite;
 }
-#hand2 {
-  animation: hands 10s 0.25s infinite;
+.hand2 {
+  animation: hands 10s 0.1s infinite;
 }
-#o2 {
+.o2 {
+  animation: google 10s 0.2s infinite;
+}
+.hand3 {
+  animation: hands 10s 0.2s infinite;
+}
+.g2 {
+  animation: google 10s 0.3s infinite;
+}
+.hand4 {
+  animation: hands 10s 0.3s infinite;
+}
+.l {
+  animation: google 10s 0.4s infinite;
+}
+.hand5 {
+  animation: hands 10s 0.4s infinite;
+}
+.e {
   animation: google 10s 0.5s infinite;
 }
-#hand3 {
+.hand6 {
   animation: hands 10s 0.5s infinite;
 }
-#g2 {
-  animation: google 10s 0.75s infinite;
-}
-#hand4 {
-  animation: hands 10s 0.75s infinite;
-}
-#l {
-  animation: google 10s 1s infinite;
-}
-#hand5 {
-  animation: hands 10s 1s infinite;
-}
-#e {
-  animation: google 10s 1.25s infinite;
-}
-#hand6 {
-  animation: hands 10s 1.25s infinite;
-}
+
+////keyframes
+//@keyframes google {
+//  0% { 
+//	  transform: translate(0,0); 
+//  }
+//	70% { 
+//	  transform: translate(0,0); 
+//  }
+//	 75% {
+//      transform: translate(0,230px);
+//  }
+//  92% {
+//      transform: translate(0,230px);
+//  }
+//	100% {
+//      transform: translate(0,0);
+//  }
+//}
+//@keyframes hands {
+//  0% { 
+//	  transform: translate(0,0);
+//  }
+//	10% { 
+//	  transform: translate(0,230px); 
+//  }
+//	 75% {
+//      transform: translate(0,230px);
+//  }
+//  92% {
+//      transform: translate(0,230px);
+//  }
+//	100% {
+//      transform: translate(0,0);
+//  }
+//}
 
 //keyframes
 @keyframes google {
@@ -220,22 +262,23 @@ img:hover {
 }
 @keyframes hands {
   0% { 
-	  transform: translate(0,0);
+	  transform: translate(0,-230px);
+	  //visibility: hidden;
   }
 	10% { 
-	  transform: translate(0,230px); 
+	  transform: translate(0,-230px); 
+		//visibility: visible;
   }
-	 75% {
-      transform: translate(0,230px);
-  }
-  92% {
-      transform: translate(0,230px);
-  }
-	100% {
+	 27% {
       transform: translate(0,0);
   }
+  92% {
+      transform: translate(0,0);
+  }
+	100% {
+      transform: translate(0,-230px);
+  }
 }
-
 
 //#g,#o,#o2,#g2,#l,#e {
 //}

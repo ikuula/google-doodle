@@ -39,8 +39,39 @@ $('button').addClass('bg' + randNum);
 
 
 $("#stage").click(function() {
-  $('#cloud').toggleClass('cloud');
+  $('#g').toggleClass('g');
 });
 $("#stage").click(function() {
-  $('#cloud2').toggleClass('cloud2');
+  $('#hand').toggleClass('hand');
 });
+$("#stage").click(function() {
+  $('#o').toggleClass('o');
+});
+$("#stage").click(function() {
+  $('#hand2').toggleClass('hand2');
+});
+$("#stage").click(function() {
+  $('#o2').toggleClass('o2');
+});
+$("#stage").click(function() {
+  $('#hand3').toggleClass('hand3');
+});
+$("#stage").click(function() {
+  $('#g2').toggleClass('g2');
+});
+$("#stage").click(function() {
+  $('#hand4').toggleClass('hand4');
+});
+$("#stage").click(function() {
+  $('#l').toggleClass('l');
+});
+$("#stage").click(function() {
+  $('#hand5').toggleClass('hand5');
+});
+$("#stage").click(function() {
+  $('#e').toggleClass('e');
+});
+$("#stage").click(function() {
+  $('#hand6').toggleClass('hand6');
+});
+
