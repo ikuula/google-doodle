@@ -87,10 +87,12 @@
       transform: scale(1) translate(0,0);
   }
 }
+//Hand First Frame
+
 
 
 // GOOGLE First frame
-#g,#o,#o2,#g2,#l,#e {
+#hand,#g,#o,#o2,#g2,#l,#e {
 	position: absolute;
 	bottom: 0;
 	width: 60px;
@@ -101,6 +103,10 @@
 #g {
 	//top:40%;
 	bottom: -110px;
+	left: 20%;
+}
+#hand {
+	bottom: -510px;
 	left: 20%;
 }
 #o {
@@ -134,30 +140,49 @@
 
 
 #g {
-  animation: google 3s 11s infinite;
+  animation: google 10s 11s infinite;
+}
+#hand {
+  animation: hands 10s 11s infinite;
 }
 #o {
-  animation: google 3s 11.5s infinite;
+  animation: google 10s 11.5s infinite;
 }
 #o2 {
-  animation: google 3s 12s infinite;
+  animation: google 10s 12s infinite;
 }
 #g2 {
-  animation: google 3s 12.5s infinite;
+  animation: google 10s 12.5s infinite;
 }
 #l {
-  animation: google 3s 13s infinite;
+  animation: google 10s 13s infinite;
 }
 #e {
-  animation: google 3s 13.5s infinite;
+  animation: google 10s 13.5s infinite;
 }
 
 //keyframes
 @keyframes google {
   0% {  
   }
-  50% {
+	 25% {
       transform: translate(0,-230px);
+  }
+  90% {
+      transform: translate(0,-230px);
+  }
+	100% {
+      transform: translate(0,0);
+  }
+}
+@keyframes hands {
+  0% {  
+  }
+	 25% {
+      transform: translate(0,-230px);
+  }
+  75% {
+      transform: translate(0,0);
   }
 	100% {
       transform: translate(0,0);
